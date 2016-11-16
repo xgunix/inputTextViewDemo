@@ -13,9 +13,15 @@
 		2E7013811DDC38910097534A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E70137F1DDC38910097534A /* Main.storyboard */; };
 		2E7013831DDC38910097534A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7013821DDC38910097534A /* Assets.xcassets */; };
 		2E7013861DDC38910097534A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7013841DDC38910097534A /* LaunchScreen.storyboard */; };
+		2E7013901DDC38D20097534A /* zjhTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E70138F1DDC38D20097534A /* zjhTextView.m */; };
+		2E7013941DDC3F850097534A /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7013911DDC3F850097534A /* sound.png */; };
+		2E7013951DDC3F850097534A /* smail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7013921DDC3F850097534A /* smail.png */; };
+		2E7013961DDC3F850097534A /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7013931DDC3F850097534A /* plus.png */; };
+		F1074B22A39F3F6F525BE6C3 /* libPods-keyBoardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B74898F8FCB49334B9D0A1E /* libPods-keyBoardDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B74898F8FCB49334B9D0A1E /* libPods-keyBoardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keyBoardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7013731DDC38910097534A /* keyBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7013771DDC38910097534A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E7013791DDC38910097534A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,13 @@
 		2E7013821DDC38910097534A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7013851DDC38910097534A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E7013871DDC38910097534A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E70138E1DDC38D20097534A /* zjhTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjhTextView.h; sourceTree = "<group>"; };
+		2E70138F1DDC38D20097534A /* zjhTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjhTextView.m; sourceTree = "<group>"; };
+		2E7013911DDC3F850097534A /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		2E7013921DDC3F850097534A /* smail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smail.png; sourceTree = "<group>"; };
+		2E7013931DDC3F850097534A /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		96B48B57E0C0607C062CB7D5 /* Pods-keyBoardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keyBoardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-keyBoardDemo/Pods-keyBoardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8BB91DBBACFB7583D57C8A9 /* Pods-keyBoardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keyBoardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-keyBoardDemo/Pods-keyBoardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1074B22A39F3F6F525BE6C3 /* libPods-keyBoardDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 			children = (
 				2E7013751DDC38910097534A /* keyBoardDemo */,
 				2E7013741DDC38910097534A /* Products */,
+				70882B0B9389818B462115A0 /* Pods */,
+				5BD30DBEB6749A23069F8762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +74,14 @@
 		2E7013751DDC38910097534A /* keyBoardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E70138D1DDC38B00097534A /* zdyTextView */,
 				2E7013791DDC38910097534A /* AppDelegate.h */,
 				2E70137A1DDC38910097534A /* AppDelegate.m */,
 				2E70137C1DDC38910097534A /* ViewController.h */,
 				2E70137D1DDC38910097534A /* ViewController.m */,
+				2E7013911DDC3F850097534A /* sound.png */,
+				2E7013921DDC3F850097534A /* smail.png */,
+				2E7013931DDC3F850097534A /* plus.png */,
 				2E70137F1DDC38910097534A /* Main.storyboard */,
 				2E7013821DDC38910097534A /* Assets.xcassets */,
 				2E7013841DDC38910097534A /* LaunchScreen.storyboard */,
@@ -79,6 +99,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2E70138D1DDC38B00097534A /* zdyTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2E70138E1DDC38D20097534A /* zjhTextView.h */,
+				2E70138F1DDC38D20097534A /* zjhTextView.m */,
+			);
+			name = zdyTextView;
+			sourceTree = "<group>";
+		};
+		5BD30DBEB6749A23069F8762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B74898F8FCB49334B9D0A1E /* libPods-keyBoardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70882B0B9389818B462115A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB91DBBACFB7583D57C8A9 /* Pods-keyBoardDemo.debug.xcconfig */,
+				96B48B57E0C0607C062CB7D5 /* Pods-keyBoardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E70138A1DDC38910097534A /* Build configuration list for PBXNativeTarget "keyBoardDemo" */;
 			buildPhases = (
+				D704CEDC8C72E339823B48A9 /* [CP] Check Pods Manifest.lock */,
 				2E70136F1DDC38910097534A /* Sources */,
 				2E7013701DDC38910097534A /* Frameworks */,
 				2E7013711DDC38910097534A /* Resources */,
+				C80E30D548194C867E8AC30F /* [CP] Embed Pods Frameworks */,
+				E8FF4A3D3EC67CA552F3AC28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,18 +187,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7013861DDC38910097534A /* LaunchScreen.storyboard in Resources */,
+				2E7013941DDC3F850097534A /* sound.png in Resources */,
 				2E7013831DDC38910097534A /* Assets.xcassets in Resources */,
+				2E7013951DDC3F850097534A /* smail.png in Resources */,
 				2E7013811DDC38910097534A /* Main.storyboard in Resources */,
+				2E7013961DDC3F850097534A /* plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C80E30D548194C867E8AC30F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-keyBoardDemo/Pods-keyBoardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D704CEDC8C72E339823B48A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FF4A3D3EC67CA552F3AC28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-keyBoardDemo/Pods-keyBoardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E70136F1DDC38910097534A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7013901DDC38D20097534A /* zjhTextView.m in Sources */,
 				2E70137E1DDC38910097534A /* ViewController.m in Sources */,
 				2E70137B1DDC38910097534A /* AppDelegate.m in Sources */,
 				2E7013781DDC38910097534A /* main.m in Sources */,
@@ -268,8 +369,11 @@
 		};
 		2E70138B1DDC38910097534A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BB91DBBACFB7583D57C8A9 /* Pods-keyBoardDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = keyBoardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bbb.keyBoardDemo;
@@ -279,8 +383,11 @@
 		};
 		2E70138C1DDC38910097534A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B48B57E0C0607C062CB7D5 /* Pods-keyBoardDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = keyBoardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bbb.keyBoardDemo;
@@ -307,6 +414,7 @@
 				2E70138C1DDC38910097534A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
